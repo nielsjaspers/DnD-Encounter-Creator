@@ -8,11 +8,11 @@
 import Foundation
 
 let stats: [String] = [
-    "Strength", "Dexterity", "Constitution", "Intelligience", "Wisdom", "Charisma"
+    "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"
 ]
 
 let savingThrows: [String] = [
-    "Strength", "Dexterity", "Constitution", "Intelligience", "Wisdom", "Charisma"
+    "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"
 ]
 
 var challengeRating: Float = 1      // Verander naar Input
