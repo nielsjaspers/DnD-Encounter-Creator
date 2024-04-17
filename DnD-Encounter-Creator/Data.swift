@@ -15,7 +15,7 @@ let savingThrows: [String] = [
     "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma"
 ]
 
-var challengeRating: Float = 1      // Verander naar Input
+var challengeRating: Float = Float((encounterCR!))!     // Verander naar Input
 
 var proficiencyBonus: Int = proficiencyBonus_by_ChallengeRating(ChallengeRating: challengeRating)
 

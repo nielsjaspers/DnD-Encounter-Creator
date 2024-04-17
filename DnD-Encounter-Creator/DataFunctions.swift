@@ -205,3 +205,33 @@ func XP_by_ChallengeRating(ChallengeRating CR: Float) -> Int {
     }
 }
 
+func determine_Hitdice(size input: String?) -> String {
+    switch input!{
+    case "Tiny":
+        return "d4"
+    case "Small":
+        return "d6"
+    case "Medium":
+        return "d8"
+    case "Large":
+        return "d10"
+    case "Huge":
+        return "d12"
+    case "Colossal":
+        return "d20"
+    case "Titanic":
+        return "d100"
+    default:
+        return "None"
+    }
+}
+
+func determineHitpoints(diceAndSize dice: [String: Int], size input: String?, diceAmount amount: Int) -> Int {
+    for (key, value) in dice {
+        if key == input {
+            let result = value * amount
+            return result
+        }
+    }
+    return 0
+}
