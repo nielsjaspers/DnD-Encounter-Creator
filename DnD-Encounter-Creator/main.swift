@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
 
+print(abilityScores)
+print(abilityModifiers)
